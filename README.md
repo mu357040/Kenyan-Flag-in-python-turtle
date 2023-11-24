@@ -7,8 +7,12 @@ This Python code utilizes the Turtle module to visually represent the Kenyan fla
 2. Copy the provided code into a Python environment or script.
 3. Run the script to generate the visual representation of the Kenyan flag.
 
-## Usage
-This code creates an interactive visual representation of the Kenyan flag using Python's Turtle graphics. Upon execution, it displays the flag's elements, including colors, shapes, and cultural symbols, allowing users to interact with the flag by clicking on different areas to reveal symbolic explanations.
+## Usage and Click Functionality
+This code enables user interaction with the flag by clicking on different areas, revealing symbolic explanations:
+- Click on the black, red, white, or green sections to learn about their symbolism.
+- Explore the Maasai Shield and Spears to understand their cultural significance.
+- The click event handling function (`after_click()`) triggers information display based on the clicked areas.
+
 
 ## Functionality
 - The code utilizes the Turtle module to draw rectangles of different colors, representing various parts of the Kenyan flag.

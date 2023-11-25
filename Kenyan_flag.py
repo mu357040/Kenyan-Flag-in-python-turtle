@@ -10,8 +10,7 @@
 # -------------------------------------------------------------------.
 # Import necessary functions from the Turtle module
 from turtle import*
-tracer(False)
-speed(0) # Set drawing speed to maximum
+speed(10) # Set drawing speed to maximum
 setup(1400, 750,0,0) # Set up the window size
 screen=Screen()
 screen.bgcolor("darkgreen")# Set background color

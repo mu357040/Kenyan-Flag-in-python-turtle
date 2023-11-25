@@ -43,7 +43,7 @@ pattern(box2, -78, 78, 12)# Apply pattern to box2
 
 
 # ---------------------------------Function to draw rectangles-----------------
-# This function is used tc create a fill colored box that I have used it many times..
+# This function is used to create a fill colored box that I have used it many times..
 def boxes(x, y, w, h, fcolor, pcolor):
     # Customize pen and fill colors
     pencolor(pcolor)
@@ -108,7 +108,7 @@ def shield():
     pendown()
     dot(15,"white")
 
-    def half_spears(x,y,angle):
+    def half(x,y,angle):
         fillcolor("white")
         pencolor("white")
         penup()
@@ -122,15 +122,15 @@ def shield():
         forward(47)
         end_fill()
 
-    half_spears(3, 123,0)
-    half_spears(-3,167,180)
+    half(3, 123,0)
+    half(-3,167,180)
 
-    half_spears(3, 32, 0)
-    half_spears(-3, 76, 180)
+    half(3, 32, 0)
+    half(-3, 76, 180)
 # ------------------------------------------------------------------------------------------------------
 # --------------------------Function to draw the arrows behind the sheild-------------------------------
 # ------------------------------------------------------------------------------------------------------
-def arrow(x,y,angle):
+def spears(x,y,angle):
     pencolor("black")
 
     penup()
@@ -150,8 +150,8 @@ def arrow(x,y,angle):
     left(90)
     forward(165)
     end_fill()
-arrow(-32,158,30)
-arrow(30,160,-30)
+spears(-32,158,30)
+spears(30,160,-30)
 shield()
 # ------------------------------------------------------------------------------------------------------
 # --------------------------Write text with specified properties at the given coordinates---------------
